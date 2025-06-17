@@ -1,5 +1,5 @@
 {
-  "name": "koishi-plugin-github-fixed",
+  "name": "@yasaitori/koishi-plugin-github-fixed",
   "description": "GitHub Toolkit for Koishi",
   "version": "5.5.2",
   "main": "lib/index.js",
