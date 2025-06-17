@@ -13,7 +13,7 @@
     "moduleResolution": "node",
     "strictBindCallApply": true,
     "paths": {
-      "koishi-plugin-github": ["src"],
+      "koishi-plugin-github-fixed": ["src"],
     },
   },
   "include": [

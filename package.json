@@ -1,20 +1,25 @@
 {
-  "name": "koishi-plugin-github",
+  "name": "koishi-plugin-github-fixed",
   "description": "GitHub Toolkit for Koishi",
-  "version": "5.5.1",
+  "version": "5.5.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "author": "Shigma <shigma10826@gmail.com>",
+  "author": "Yasaitori <caijidayo@outlook.com>",
+  "contributors": [
+    "Shigma <shigma10826@gmail.com>",
+    "Yasaitori <caijidayo@outlook.com>"
+  ],
+
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koishijs/koishi-plugin-github.git"
+    "url": "git+https://github.com/yasaitoriovo/koishi-plugin-github.git"
   },
   "bugs": {
-    "url": "https://github.com/koishijs/koishi-plugin-github/issues"
+    "url": "https://github.com/yasaitoriovo/koishi-plugin-github/issues"
   },
   "homepage": "https://github.koishi.chat",
   "keywords": [
