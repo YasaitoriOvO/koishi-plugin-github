@@ -160,6 +160,7 @@ namespace GitHub {
     path?: string
     appId?: string
     appSecret?: string
+    selfUrl?: string
     messagePrefix?: string
     replyFooter?: string
     redirect?: string
@@ -171,6 +172,7 @@ namespace GitHub {
     path: Schema.string().description('GitHub 服务的路径。').default('/github'),
     appId: Schema.string().description('GitHub OAuth App ID.'),
     appSecret: Schema.string().description('GitHub OAuth App Secret.'),
+    selfUrl: Schema.string().description('GitHub OAuth App 回调地址。'),
     redirect: Schema.string().description('授权成功后的跳转链接。'),
     messagePrefix: Schema.string().description('推送消息的前缀。').default('[GitHub] '),
     replyFooter: Schema.string().description('显示在回复消息尾部的固定文字。').role('textarea').default([

@@ -1,7 +1,7 @@
 {
-  "name": "@yasaitori/koishi-plugin-github-fixed",
-  "description": "GitHub Toolkit for Koishi",
-  "version": "5.5.2",
+  "name": "koishi-plugin-github-fixed",
+  "description": "A fork version of koishi-plugin-github with some fixes and improvements.",
+  "version": "5.5.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -12,7 +12,6 @@
     "Shigma <shigma10826@gmail.com>",
     "Yasaitori <caijidayo@outlook.com>"
   ],
-
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -74,7 +74,7 @@ export default function command(ctx: Context, github: GitHub) {
               events: ['*'],
               config: {
                 secret,
-                url: ctx.server.config.selfUrl + path + '/webhook',
+                url: github.config.selfUrl + path + '/webhook',
               },
             })
           } catch (err) {
