@@ -5,6 +5,8 @@
 
 GitHub Toolkit for Koishi.
 
+这是我的Fork版本
+
 ## 文档
 
 <https://github.koishi.chat>
